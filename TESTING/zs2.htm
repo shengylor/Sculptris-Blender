@@ -1,0 +1,261 @@
+<html>
+	<head>
+		<title>
+			Blender tutorial
+		</title>
+		<link rel="stylesheet" type="text/css" href="zstyle.css"/>
+	</head>
+		
+	<body>
+		<h1><img src="secondstep.png" width="100px"; height="40px"; align="absbottom"> : Rig the Character</h1>
+			<center>		
+<h2>Work in Blender</h2>
+	   
+			</center>
+		
+</body>
+<ul id="menu">
+	<li><a href="zhome.htm">Home</a></li>
+	<li><a href="zs1and3.htm">1st step</a>
+	<li><a href="zs2.htm">2nd step</a></li>
+	<li><a href="zs3.htm">3rd step</a></li>
+	<li><a href="zs4.htm">4th step</a></li>
+	<li><a href="zs5.htm">FAQ</a></li>
+</ul>
+		<br />
+	
+	<center><p>
+		Again, we can't animate in Sculptris so we are moving to work in Blender now. We cannot rig right away because it's not that easy to transfer <br />
+		our work from Sculptris to Blender. After importing it to Blender, we can start rigging.
+	</p></center>
+	
+	
+	<br />
+<body>
+
+
+	<script type="text/javascript">
+// From: http://www.webdeveloper.com/forum/showthread.php?t=218226
+
+function ToggleList(IDS) {
+  var CState = document.getElementById(IDS);
+  if (CState.style.display != "block") { CState.style.display = "block"; }
+                                  else { CState.style.display = "none"; }
+}
+
+</script>
+
+<style type="text/css">
+  .divInfo { display:none}
+</style>
+
+</head>
+
+
+<body>
+<ul id="ulist">
+
+<font style="font-weight: bolder;font-size:20px;" face="Tahoma" color="#ed4f00"> <i> 
+	<li onclick="ToggleList('g')" onclick="ToggleList('g')">
+		Need Help Downloading Blender?	 
+</i></font>
+<font style="font-weight: bold; font-size: small" color="#0c00e6">
+		Show/Hide</font> 
+  <p><div id="g" class="divInfo">
+  	* Download here: <b> <a href="http://pixologic.com/sculptris/">www.pixologic.com/sculptris/</a></b>
+		<br/> <br/>Hover to see fast video guide 
+  <a class="thumbnail" href="#thumb">HERE.<span>
+  <img src="Bldownload.gif"/>
+  </span></a>
+  <br /> 
+
+ </div></p>
+
+
+
+<font style="font-weight: bolder;font-size:20px;" face="Tahoma" color="#ed4f00"> <i> 
+	<li onclick="ToggleList('x')" onclick="ToggleList('x')">
+		Set Up Your Preferences	 
+</i></font>
+<font style="font-weight: bold; font-size: small" color="#0c00e6">
+		Show/Hide</font> 
+  <div id="x" class="divInfo"><a class="thumbnail" href="#thumb"> <b>What is this? Why can't I just import my OBJ character into Blender?</b><span><img src="info.jpg"/></span></a><br /><br />
+  	
+  	1. <a class="thumbnail" href="#thumb"> Open up Blender<span><img src="openbr.jpg"/></span></a><br /> 
+  	2. <a class="thumbnail" href="#thumb"Cl> Click anywhere outside, the pop-up picture will go away<span><img src="getrid.jpg"/></span></a><br />
+  	3. <a class="thumbnail" href="#thumb"> Right click the default cube to see a yellow selection around it, hit <b>'x'</b> and chose <b>delete</b><span><img src="delcube.jpg"/></span></a><br />
+  	4. <a class="thumbnail" href="#thumb"> Default cube should be gone<span><img src="cube gone.jpg"/></span></a><br />
+  	5. <a class="thumbnail" href="#thumb"> Go to <b>File</b> then <b>User Preferences</b><span><img src="userpref.jpg"/></span></a><br />
+  	6. <a class="thumbnail" href="#thumb"> Under the <b>Addons</b> tab, scroll down to find "Import-Export: Wavefront OBJ format" and make sure that it is CHECKED<span><img src="checky.jpg"/></span></a><br />
+  	7. <a class="thumbnail" href="#thumb"> Hit "Save" and close the window<span><img src="savequit.jpg"/></span></a><br />
+  	
+</div> 
+
+<br />
+<br />
+
+
+<font style="font-weight: bolder;font-size:20px;" face="Tahoma" color="#ed4f00"> <i> 
+	<li onclick="ToggleList('101')" onclick="ToggleList('101')">
+		Import Your OBJ Character You Saved from Sculptris to Blender	 
+</i></font>
+<font style="font-weight: bold; font-size: small" color="#0c00e6">
+		Show/Hide</font> 
+  <div id="101" class="divInfo">  
+  	Now Blender should allow us to import our OBJ files, after setting up our User Preferences correctly.<br />
+  	Here are the steps:
+  	<br /> <br />
+  	1. <a class="thumbnail" href="#thumb"> Go to <b>File</b> then <b>Import</b> and choose <b>Wavefront (.obj)</b> <span><img src="fileobj.jpg"/></span></a><br /> <br />
+  	2. <a class="thumbnail" href="#thumb"> Find where you save your character (in OBJ format) and open it to Blender <span><img src="openobj.jpg"/></span></a><br /><br />
+  	3. <a class="thumbnail" href="#thumb"> The character should load into Blender, your screen should look like this <span><img src="loaded.jpg"/></span></a><br /><br />
+  	4. <a class="thumbnail" href="#thumb"> Right click your character, make sure the selection around it is <b>YELLOW</b> and <b>NOT RED</b> <span><img src="yellnor.jpg"/></span></a><br /> <br />
+  	
+  	5. <a class="thumbnail" href="#thumb"> Widen your panel on the right by dragging it (you know you can drag it when the <b>dragging icon</b> pops up) <span><img src="draggg.gif"/></span></a><br /><br />
+  	
+  	6. <a class="thumbnail" href="#thumb"> Click on your <b>Texture</b> button, then click <b>New</b><span><img src="texturebutton.jpg"/></span></a><br /><br />
+  	7. <a class="thumbnail" href="#thumb"> For Type, choose <b>Image or Movie</b><span><img src="imormovy.jpg"/></span></a><br /><br />
+  	8. <a class="thumbnail" href="#thumb"> Click the <b>Open</b> button and find your textmap <br/>
+  		...that you saved along with your OBJ character <span><img src="pnduh.jpg"/></span></a><br /><br />
+  	9. <a class="thumbnail" href="#thumb"> Your textmap should load and look like this on your screen<span><img src="textmaploaded.jpg"/></span></a><br /> <br />
+  	10.<a class="thumbnail" href="#thumb"> Scroll down, for <b>Coordinates,</b> choose <b>UV</b><span><img src="uvs.jpg"/></span></a><br /><br />
+	11.<a class="thumbnail" href="#thumb"> Now, go to <b>Render</b> and choose <b>Render Image</b><span><img src="renderim.jpg"/></span></a><br /><br />
+    12.<a class="thumbnail" href="#thumb"> Your screen should look like this<span><img src="renderedy.jpg"/></span></a><br /><br />
+	13.<a class="thumbnail" href="#thumb"> Click the <b>Area.Type</b> icon and choose <b>3D View</b><span><img src="3dview.jpg"/></span></a><br /><br />
+	14.<a class="thumbnail" href="#thumb"> Your screen should look like this, click your <b>Display the Object</b> button and choose <b>Rendered</b> to show the color<span><img src="showren.jpg"/></span></a><br /><br />
+    15.<a class="thumbnail" href="#thumb"> click your <b>Material</b> button <span><img src="mater.jpg"/></span></a><br /><br />
+    16.<a class="thumbnail" href="#thumb"> Scroll down and uncheck <b>Traceable</b><span><img src="unchk.jpg"/></span></a><br /><br />	
+    17.<a class="thumbnail" href="#thumb"> Under <b>Shading,</b> increase the number in each boxes to retain your orignal color. <br /> 
+    	...Stop whenever, depending on how you want your character to to look<span><img src="coloredy.jpg"/></span></a><br /><br />
+</div> 
+
+
+<br />
+<br />
+
+
+<font style="font-weight: bolder;font-size:20px;" face="Tahoma" color="#ed4f00"> <i> 
+	<li onclick="ToggleList('c')" onclick="ToggleList('c')">
+		Start Rigging 
+</i></font>
+<font style="font-weight: bold; font-size: small" color="#0c00e6">
+		Show/Hide</font> 
+  <div id="c" class="divInfo">
+  	
+    <p><a class="thumbnail" href="#thumb">1. In the <b>Display the Object</b> menu, choose <b>solid</b><span>
+	<img src="solid view.jpg"/>
+	</span></a></p>
+	
+	<p><a class="thumbnail" href="#thumb">2. Hold on <b>'Shift a,'</b> choose <b>Armature</b> then <b>Single Bone</b><span>
+	<img src="shift a.jpg"/>
+	</span></a></p>
+	
+	<p><a class="thumbnail" href="#thumb">3. A bone should show up, your screen should look like this<span>
+	<img src="showbone.jpg"/>
+	</span></a></p>
+	
+	<p><a class="thumbnail" href="#thumb">4. Hit <b>'g'</b> and move the mouse around, the bone should move around with you<span>
+	<img src="movebone.gif"/>
+	</span></a></p>
+	
+	
+	
+
+	<p><a class="thumbnail" href="#thumb">5. Place the bones inside your character<span>
+	<img src="bonnies.gif"/>
+	</span></a></p>
+	
+	
+	
+		
+	<p><a class="thumbnail" href="#thumb">6. OPTIONAL: Hit <b>Ctrl Alt q</b> to go into quad view, <br/>
+		do the same thing to escape from quad view<span>
+	<img src="fourviews.jpg"/>
+	</span></a></p>
+	
+		<p><a class="thumbnail" href="#thumb">7. You won't see your bone once it's hidden under your character <br />
+			...so click <b>Object Data</b> and put a check mark on <b>X ray</b><span>
+	<img src="xray.jpg"/>
+	</span></a></p>
+	
+	<p><a class="thumbnail" href="#thumb">8. To create more bones, go to <b>edit mode</b><span>
+	<img src="editmode.jpg"/>
+	</span></a></p>
+	
+	<p><a class="thumbnail" href="#thumb">9. Right click the ball at the tip of the bone then hit <b>'e'</b><br />
+		...'e' stands for extrusion
+		<span>
+	<img src="morebone.jpg"/>
+	</span></a></p>
+	
+	<p><a class="thumbnail" href="#thumb">10. Keep extruding more bones all over your character, carefully <br />
+		do one at a time and check if it's in the right spot<span>
+	<img src="bonnies.gif"/>
+	</span></a></p>
+	
+	<p><a class="thumbnail" href="#thumb">11. Tips on where to place your bones<span>
+	<img src="bonies.jpg"/>
+	</span></a></p>
+	
+	<p><a class="thumbnail" href="#thumb">12. Go back to <b>Object mode</b> (quick navigaiton: hit TAB) <br /><br />
+		* Right click your character <b>(FIRST)</b> and make sure you see a selection around it <br />
+		* <b>THEN</b> hold on shift and right click your bones <br />
+		* Click <b>'Control p'</b> and choose <b>With Automatic Weights</b> 	
+	<span>
+	<img src="moreinfo.jpg"/>
+	</span></a></p>
+	
+	
+	<p><a class="thumbnail" href="#thumb">13. Now you have something call <b>Pose mode</b> <br />
+		Change from object mode to pose mode in order to rig your character
+	
+	<span>
+	<img src="posemode.jpg"/>
+	</span></a></p>
+	
+	<p><a class="thumbnail" href="#thumb">14. Now, right click one of your bones and hit <b>'g'</b> to see if you can bend that part<span>
+	<img src="moving.jpg"/>
+	</span></a></p>	
+	
+	</div>
+<br />
+<br />
+<br />
+  
+</ul>
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+
+
+
+<center>
+<span><a class="pd-embed" id="pd1386294165791" href="http://shengylor.polldaddy.com/s/step-3">Take Your 2nd Step Quiz!</a></span>
+<script type="text/javascript">
+var _polldaddy = [] || _polldaddy;
+
+_polldaddy.push( {
+    type: 'button',
+    title: 'Take Our Quiz!',
+    style: 'inline',
+    domain: 'shengylor.polldaddy.com/s/',
+    id: 'step-3',
+    placeholder: 'pd1386294165791'
+} );
+
+(function(d,c,j){if(!document.getElementById(j)){var pd=d.createElement(c),s;pd.id=j;pd.src='http://i0.poll.fm/survey.js';s=document.getElementsByTagName(c)[0];s.parentNode.insertBefore(pd,s);}}(document,'script','pd-embed'));
+</script>
+
+
+<br /><br />
+  Posted by: Sheng Lor<br/>
+  Contact information: <a href="mailto:lor04036@stthomas.edu">lor04036@stthomas.edu</a>.
+</center>
+
+</body>
+
+</html>

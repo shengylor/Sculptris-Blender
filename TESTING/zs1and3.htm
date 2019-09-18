@@ -1,0 +1,355 @@
+<html>
+	<head>
+		<title>
+			Blender tutorial
+		</title>
+		<link rel="stylesheet" type="text/css" href="zstyle.css"/>
+	</head>
+	
+	
+	<body>
+		<h1><img src="firststep.png" width="100px"; height="40px"; align="absbottom"> : Creating Your Character</h1>
+		<h2>Work in Sculptris</h2>
+</body>
+<ul id="menu">
+	<li><a href="zhome.htm">Home</a></li>
+	<li><a href="zs1and3.htm">1st step</a></li>
+	<li><a href="zs2.htm">2nd step</a></li>
+	<li><a href="zs3.htm">3rd step</a></li>
+	<li><a href="zs4.htm">4th step</a></li>
+	<li><a href="zs5.htm">FAQ</a></li>
+</ul>
+		
+	<center>
+		<p>
+<br />
+You can only create your character in Sculptris and cannot animate it. <br />
+That's why you have to download Blender for the animation effects. Blender is a very powerful tool, you can actually create <br/>
+your character in Blender. But this tutorial will show you how build your character in Sculptris.<br />
+	   </p>
+	</center>	
+<br />
+	
+<body>
+
+
+	<script type="text/javascript">
+// From: http://www.webdeveloper.com/forum/showthread.php?t=218226
+
+function ToggleList(IDS) {
+  var CState = document.getElementById(IDS);
+  if (CState.style.display != "block") { CState.style.display = "block"; }
+                                  else { CState.style.display = "none"; }
+}
+
+</script>
+
+<style type="text/css">
+  .divInfo { display:none}
+</style>
+
+</head>
+<body>
+
+<ul id="ulist">
+
+<font style="font-weight: bolder;font-size:20px;" face="Tahoma" color="#ed4f00"> <i> 
+	<li onclick="ToggleList('g')" onclick="ToggleList('g')">
+		Need Help Downloading Sculptris?	 
+</i></font>
+<font style="font-weight: bold; font-size: small" color="#0c00e6">
+		Show/Hide</font> 
+		<br /> <br />	
+    <div id="g" class="divInfo"> 	
+		<b>* Download Sculptris at: <a href="http://pixologic.com/sculptris/">www.pixologic.com/sculptris/</a></b>
+	<br /><br/>
+	
+    <a class="thumbnail" href="#0">Hover to see a quick video guide<span> 
+	<img src="sdownload.gif"/>
+	</span><br /><br /></a></div> 
+
+
+<font style="font-weight: bolder;font-size:20px;" face="Tahoma" color="#ed4f00"> <i> 
+	<li onclick="ToggleList('a')" onclick="ToggleList('a')">
+		Sculptris Navigation	 
+</i></font>
+<font style="font-weight: bold; font-size: small" color="#0c00e6">
+		Show/Hide</font> 
+  <div id="a" class="divInfo">Please navigate around, it only takes a few minutes for you to get familiar with it.
+  	<br />
+    <a class="thumbnail" href="#1">1. Move object around<span>
+	<img src="movenav.gif"/>
+	</span></a>
+	<br />
+	<br />
+	<a class="thumbnail" href="#2">2. Rotate or turn object<span>
+	<img src="turn.gif"/>
+	</span></a>
+	<br />
+	<br />
+	<a class="thumbnail" href="#3">3. Zoom in / Zoom out <span>
+	<img src="Snavigationscroll.gif"/>
+	</span></a>
+</div> 
+	
+<br />
+<br />
+
+
+<font style="font-weight: bolder;font-size:20px;" face="Tahoma" color="#ed4f00"> <i> 
+	<li onclick="ToggleList('b')" onclick="ToggleList('b')">
+		Samples of the Tools	 
+</i></font>
+<font style="font-weight: bold; font-size: small" color="#0c00e6">
+		Show/Hide</font> 
+    <div id="b" class="divInfo">
+
+  
+	<a class="thumbnail" href="#7">1. Inflate tool / Deflate<span>
+	<img src="inflate-tool.gif"/>
+	</span></a>
+	<br />
+	<br />
+	<a class="thumbnail" href="#8">2. Grab tool<span>
+	<img src="grab-tool.gif"/>
+	</span></a>
+	<br />
+	<br />
+	<a class="thumbnail" href="#9">3. Crease tool<span>
+	<img src="Crease-tool.gif"/>
+	</span></a>
+	<br />
+	<br />
+	<a class="thumbnail" href="#10">4. Rotate tool<span>
+	<img src="Rotate-tool.gif"/>
+	</span></a>
+	<br />
+	<br />
+	<a class="thumbnail" href="#11">5. Smooth tool<span>
+	<img src="smooth-tool.gif"/>
+	</span></a>
+	<br />
+	<br />
+	<a class="thumbnail" href="#12">8. Flat tool<span>
+	<img src="flat-tool.gif"/>
+	</span></a>
+	<br />
+	<br />
+	<a class="thumbnail" href="#14">6. Reduce polygons tool<span>
+	<img src="reduce-polygons.gif"/>
+	</span></a> <br/> <br />
+    <a class="thumbnail" href="#5">7. Change color of the ball<span>
+	<img src="ballcolor.gif"/>
+	</span></a> <br/> <br/>
+	    <a class="thumbnail" href="#6">8. Quick video explaining how SYMMETRY works <span>
+	<img src="symmet.gif"/>
+	</span></a> <br/> <br/>	
+	    <a class="thumbnail" href="#5">9. Create new object<span>
+	<img src="toscale.gif"/>
+	</span></a> <br/> 
+
+</div> 
+<br />
+<br />
+
+
+<font style="font-weight: bolder;font-size:20px;" face="Tahoma" color="#ed4f00"> <i> 
+	<li onclick="ToggleList('c')" onclick="ToggleList('c')">
+		How to Open Image References	 
+</i></font>
+<font style="font-weight: bold; font-size: small" color="#0c00e6">
+		Show/Hide</font> 
+  <div id="c" class="divInfo">
+    <p><a class="thumbnail" href="#15"><b>* Your image reference must align with each other</b><span>
+	<img src="align.jpg"/>
+	</span></a></p>
+   
+    <p><a class="thumbnail" href="#16"><b>* Example of how image reference works</b><span>
+	<img src="reference.gif"/>
+	</span></a></p> 
+   
+    <p><a class="thumbnail" href="#17"><b>* Why use an image reference?</b><span>
+	<img src="whyir.jpg"/>
+	</span></a></p><br /> 
+	
+    <p><a class="thumbnail" href="#18">1. Open up Sculptris and click the <b>Option</b> button at the top <span>
+	<img src="option.jpg"/>
+	</span></a></p>	
+    <p><a class="thumbnail" href="#19">2. A black window will pop up, click <b>Background</b> <span>
+	<img src="bkg.jpg"/>
+	</span></a></p>		
+	<p><a class="thumbnail" href="#20">3. Find where you save your image reference, then click <b>Open</b> <span>
+	<img src="openpix.jpg"/>
+	</span></a></p>	
+	<p><a class="thumbnail" href="#21">4. You should see your image reference loaded to the background, just click <b>OK</b> <span>
+	<img src="okduh.jpg"/>
+	</span></a></p>	
+	
+	
+</div> <br /> 
+
+<br />
+
+
+
+<font style="font-weight: bolder;font-size:20px;" face="Tahoma" color="#ed4f00"> <i> 
+	<li onclick="ToggleList('d')" onclick="ToggleList('d')">
+		A Tutorial on the Flower Character	 
+</i></font>
+<font style="font-weight: bold; font-size: small" color="#0c00e6">
+		Show/Hide</font> 
+  <div id="d" class="divInfo"> 
+  	
+    <p><a class="thumbnail" href="#22"><b>* Can you sculpt something else?</b><span>
+	<img src="others.jpg"/>
+	</span></a></p> 
+	<p><a class="thumbnail" href="#23"><b>* Things to keep in mind</b><span>
+	<img src="reminder.jpg"/>
+	</span></a></p>
+ 	   <br />
+		
+		
+   		 1. <b> Create the Flower Petals </b><br />
+    <a class="thumbnail" href="#100">* Use your <b>Grab tool</b> and <b>Symmetry tool</b> to 
+    click and drag out some <br />
+    flower petals<span>
+	<img src="petals.gif"/>
+	</span></a>
+	 <br /> <br />
+    	 		
+		 2. <b> Create the Receptacle </b><br />
+    <a class="thumbnail" href="#101">* Turn to the back side of the object <br />
+    	and use the <b>Grab tool</b> to form the Receptacle<br />
+    	 <span>
+	<img src="receptacle.gif"/>
+	</span></a> <br />
+
+
+		3. <b> Create the Stem </b><br />
+    <a class="thumbnail" href="#102">* Inflate (small brush size) on the receptacle, then grab it
+    	 <span>
+	<img src="stemy.gif"/>
+	</span></a> <br /><br />
+	
+
+	4. <b> Create the leaves </b><br />
+    <a class="thumbnail" href="#103">* Remember to <b>reduce your polygon count</b> early enough
+    <span><img src="stem.gif"/></span></a> 
+    <br /><br />
+
+   
+    <a class="thumbnail" href="#104">* Like the stem, inflate a ball on the side of the stem then grab it out
+    <span><img src="leaf.gif"/></span></a>
+    	
+<br/> <br/>
+	5. <b> </b>Create the eyes<br />
+    <a class="thumbnail" href="#105">Gently deflate two holes on the face, it doesn't have to be deep <br />
+     <span> <img src="pokeeyes.gif"/> </span></a> <br />
+	6. <b> Insert the Eyes </b><br />
+    <a class="thumbnail" href="#106"> Create new objects, scale the new objects to the right size <br />
+    	and insert them as eye balls<br /><br />
+    	<span><img src="inserteyes.gif"/></span></a> 
+    7. <b> Create the nose</b><br />
+    <a class="thumbnail" href="#107"> Turn your character's head to the side and grab out the nose<br />
+    	...also add details and lower your polygons count<br /><br />
+    	<span><img src="noseandface.gif"/></span></a>
+    	
+    8. <b> Create the Mouth</b><br />
+    <a class="thumbnail" href="#107"> Deflate a hole, then grab and inflate around it to create the lips<br /><br />
+    	<span><img src="mouth.gif"/></span></a>	
+   
+   
+    9. <b> Final touches</b><br />
+    <a class="thumbnail" href="#108"> Add any details you want to your character and remember<br />
+    	to keep your polygons count as low as possible<br />
+    	<span><img src="finaltouch.gif"/></span></a>
+</div>
+
+<br/>
+<br/>
+
+<font style="font-weight: bolder;font-size:20px;" face="Tahoma" color="#ed4f00"> <i> 
+	<li onclick="ToggleList('y')" onclick="ToggleList('y')">
+		How to Color Your Character	 
+</i></font>
+<font style="font-weight: bold; font-size: small" color="#0c00e6">
+		Show/Hide</font> 
+  <div id="y" class="divInfo"> 
+  	
+    <p><a class="thumbnail" href="#25"><b>Here's a quick video</b><span>
+	<img src="coloring.gif"/>
+	</span></a></p> 	 
+</div>
+	
+<br/>
+<br/>
+
+<font style="font-weight: bolder;font-size:20px;" face="Tahoma" color="#ed4f00"> <i> 
+	<li onclick="ToggleList('z')" onclick="ToggleList('z')">
+		How to Export Your Character	 
+</i></font>
+<font style="font-weight: bold; font-size: small" color="#0c00e6">
+		Show/Hide</font> 
+  <div id="z" class="divInfo"> 
+  	
+    <p><a class="thumbnail" href="#25">* <b>NOTE Saving your work is different from exporting your work</b><span>
+	<img src="saving.jpg"/></span></a></p> <br/>
+	
+	
+	<p><a class="thumbnail" href="#25">1. Make a new folder in your desktop, I'm naming my folder "OBJ and Textmap" <span>
+	<img src="stodesktop.jpeg"/></span></a></p>
+	
+	<p><a class="thumbnail" href="#25">2. Click the OBJ button and save it to your new folder, I'm naming mine "OBJ Character"<span>
+	<img src="exporting.jpg"/></span></a></p>
+	
+	<p><a class="thumbnail" href="#25">3. Now click <b>Show advanced tools</b> and choose <b>Save textmap</b> <br/>
+	...also save it into the new folder you created, I'm naming mine "my textmap"<span>
+	<img src="stextmap.jpg"/></span></a></p>
+	
+	<p><a class="thumbnail" href="#25">4. How your folder should look<span>
+	<img src="looky.jpg"/></span></a></p>	
+			 
+</div>
+
+
+
+</ul>
+<br/>
+<br />
+<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+
+
+
+
+<center>
+<span><a class="pd-embed" id="pd1386293132912" href="http://shengylor.polldaddy.com/s/step-1-quiz">Take Your 1st Step Quiz!</a></span>
+<script type="text/javascript">
+var _polldaddy = [] || _polldaddy;
+
+_polldaddy.push( {
+    type: 'button',
+    title: 'Take Our Quiz!',
+    style: 'inline',
+    domain: 'shengylor.polldaddy.com/s/',
+    id: 'step-1-quiz',
+    placeholder: 'pd1386293132912'
+} );
+
+(function(d,c,j){if(!document.getElementById(j)){var pd=d.createElement(c),s;pd.id=j;pd.src='http://i0.poll.fm/survey.js';s=document.getElementsByTagName(c)[0];s.parentNode.insertBefore(pd,s);}}(document,'script','pd-embed'));
+</script>
+
+<br /><br />
+
+  Posted by: Sheng Lor<br/>
+  Contact information: <a href="mailto:lor04036@stthomas.edu">lor04036@stthomas.edu</a>.
+</center>
+
+</body>
+
+	
+</html>

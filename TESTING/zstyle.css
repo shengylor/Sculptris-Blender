@@ -1,0 +1,266 @@
+
+
+a:link		{color: #15008f}
+a:visited	{color: #15008f}
+a:hover		{color: #7202bb}
+
+h1			{font-family: "Calisto MT"; font-size: 35px; color:#000000; text-align: center; padding-bottom:0; padding-top:0; margin-bottom: 0; margin-top: 0}
+h2	        {font-family: "Arial"; font-size: 20px; color:#000000; text-align: center; font-style: italic; font-weight: 700; 
+text-decoration: underline; padding-top: 0; padding-bottom: 0; margin-top: 0; margin-bottom: 5px}
+
+p			{font-family: "Lucida Grande"; font-size: 16px; color:#000000}
+
+h3			{font-family: "Tahoma"; font-size: 25px; color:#ed4f00; text-align: center; font-style: italic; font-weight: bolder}
+
+
+h4 			{font-family: "Arial"; font-size: 16px; color:#000000; text-align: right; font-style: normal; font-weight: lighter
+  			display:inline-block;}
+
+body        {background-color: white;}
+
+
+/* Main */
+#menu{
+	width: 100%;
+	margin: 0;
+	padding: 10px 0 0 0;
+	list-style: none;  
+	background: #111;
+	background: -moz-linear-gradient(#cc6a28, #ffad7a); 
+    background: -webkit-gradient(linear,left bottom,left top,color-stop(0, #111),color-stop(1, #cc6a28));	
+	background: -webkit-linear-gradient(#cc6a28, #ffad7a);	
+	background: -o-linear-gradient(#cc6a28, #ffad7a);
+	background: -ms-linear-gradient(#cc6a28, #ffad7a);
+	background: linear-gradient(#cc6a28, #ffad7a);
+	-moz-border-radius: 50px;
+	border-radius: 50px;
+	-moz-box-shadow: 0 2px 1px #9c9c9c;
+	-webkit-box-shadow: 0 2px 1px #9c9c9c;
+	box-shadow: 0 2px 1px #9c9c9c;
+}
+
+#menu li{
+	float: left;
+	padding: 0 0 10px 0;
+	position: relative;
+    margin-left: 60px; 
+}
+
+#menu a{
+	float: left;
+	height: 25px;
+	padding: 0 25px;
+	color: #ffc7a3;
+	text-transform: none;
+	font: bold 18px/31px Arial, Helvetica;
+	text-decoration: none;
+	text-shadow: 0 1px 0 #000;
+	margin-left: 70px
+}
+
+#menu li:hover > a{
+	color: #ffffff;
+}
+
+*html #menu li a:hover{ /* IE6 */
+	color: #ffffff;
+}
+
+#menu li:hover > ul{
+	display: block;
+}
+
+/* Sub-menu */
+
+#menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;    
+    display: none;
+    position: absolute;
+    top: 35px;
+    left: 0;
+    z-index: 99999;    
+    background: #444;
+    background: -moz-linear-gradient(#c25100, #ffa05c);
+    background: -webkit-gradient(linear,left bottom,left top,color-stop(0, #111),color-stop(1, #c25100));
+    background: -webkit-linear-gradient(#c25100, #ffa05c);    
+    background: -o-linear-gradient(#c25100, #ffa05c);	
+    background: -ms-linear-gradient(#c25100, #ffa05c);	
+    background: linear-gradient(#c25100, #ffa05c);	
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#menu ul li{
+    float: none;
+    margin: 5px;
+    padding: 0;
+    display: block;  
+    -moz-box-shadow: 0 1px 0 #111111, 0 2px 0 #777777;
+    -webkit-box-shadow: 0 1px 0 #111111, 0 2px 0 #777777;
+    box-shadow: 0 1px 0 #111111, 0 2px 0 #777777;
+    margin-right: 90px
+    
+}
+
+#menu ul li:last-child{   
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none; 
+}
+
+#menu ul a{    
+    padding: 5px;
+    height: auto;
+    line-height: 1;
+    display: table-cell;
+    white-space: nowrap;
+    float: none;
+    text-transform: none;
+    font-size: 13px
+   
+}
+
+*html #menu ul a{ /* IE6 */   
+	height: 5px;
+	width: 5px;
+	
+}
+
+*:first-child+html #menu ul a{ /* IE7 */    
+	height: 10px;
+	width: 50px;
+}
+
+#menu ul a:hover{
+    background: #0186ba;
+	background: -moz-linear-gradient(#04acec,  #0186ba);	
+	background: -webkit-gradient(linear, left top, left bottom, from(#04acec), to(#0186ba));
+	background: -webkit-linear-gradient(#04acec,  #0186ba);
+	background: -o-linear-gradient(#04acec,  #0186ba);
+	background: -ms-linear-gradient(#04acec,  #0186ba);
+	background: linear-gradient(#04acec,  #0186ba);
+}
+
+#menu ul li:first-child a{
+    -moz-border-radius: 5px 5px 0 0;
+    -webkit-border-radius: 5px 5px 0 0;
+    border-radius: 5px 5px 0 0;
+    
+}
+
+#menu ul li:first-child a:after{
+    content: '';
+    position: absolute;
+    left: 30px;
+    top: -8px;
+    width: 5px;
+    height: 0;
+    border-left: 6px solid transparent; 
+    border-right: 6px solid transparent;
+    border-bottom: 8px solid #444;
+}
+
+#menu ul li:first-child a:hover:after{
+    border-bottom-color: #04acec; 
+    
+}
+
+#menu ul li:last-child a{
+    -moz-border-radius: 0 0 5px 5px;
+    -webkit-border-radius: 0 0 5px 5px;
+    border-radius: 0 0 5px 5px;
+}
+
+/* Clear floated elements */
+#menu:after{
+	visibility: hidden;
+	display: block;
+	font-size: 2px;
+	content: " ";
+	clear: both;
+	height: 0;
+	width: 5px
+}
+
+* html #menu             { zoom: 1; } /* IE6 */
+*:first-child+html #menu { zoom: 1; } /* IE7 */
+
+
+
+
+
+<style type="text/css">
+
+.hovergallery img{
+-webkit-transform:scale(0.8); /*Webkit: Scale down image to 1.5x original size*/
+-moz-transform:scale(0.8); /*Mozilla scale version*/
+-o-transform:scale(0.8); /*Opera scale version*/
+-webkit-transition-duration: 0.5s; /*Webkit: Animation duration*/
+-moz-transition-duration: 0.5s; /*Mozilla duration version*/
+-o-transition-duration: 0.5s; /*Opera duration version*/
+opacity: 0.7; /*initial opacity of images*/
+margin: 0 10px 5px 0; /*margin between images*/
+}
+
+.hovergallery img:hover{
+-webkit-transform:scale(1.3); /*Webkit: Scale up image to 15x original size*/
+-moz-transform:scale(1.3); /*Mozilla scale version*/
+-o-transform:scale(1.3); /*Opera scale version*/
+
+}
+</style>
+
+
+
+
+
+
+
+
+
+.gallerycontainer{
+position: relative;
+/*Add a height attribute and set to largest image's height to prevent overlaying*/
+}
+
+.thumbnail img{
+border: 1px solid white;
+margin: 3px 3px 3px 3px;
+}
+
+.thumbnail:hover{
+background-color: transparent;
+}
+
+.thumbnail:hover img{
+border: 3px solid black;
+}
+
+.thumbnail span{ /*CSS for enlarged image*/
+position: fixed;
+background-color: lightyellow;
+padding: 1px;
+right: 20px;
+border: 2px solid gray;
+visibility: hidden;
+color: black;
+text-decoration: none;
+}
+
+.thumbnail span img{ /*CSS for enlarged image*/
+border-width: 2;
+padding: 2px;
+}
+
+.thumbnail:hover span{ /*CSS for enlarged image*/
+visibility: visible;
+top: 200px;
+right: 20px; /*position where enlarged image should offset horizontally */
+z-index: 20;
+}
+
+
+
+
